@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    background: url(farm.jpg) no-repeat bottom;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.wrap{
+    margin: 0 auto;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+}
+.memo{
+    margin-top: 150px;
+    background: #fff;
+    display: flex;
+}
+.farmerimg{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.item{
+    padding: 40px;
+    width: 300px;
+}
+.additem{
+    display: flex;
+
+}
+.addtext{
+    width: 200px;
+    height: 30px;
+    border: 2px solid #000;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.addbtn{
+    width: 70px;
+    height: 36px;
+    background: rgb(244, 149, 65);
+    font-weight: bold;
+    cursor: pointer;
+}
+.itemlist{
+    margin-top: 40px;
+}
+.itemlist a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: #be63cd;
+}
+.itemlist a:hover{
+    color: #f74c4c;
+}
+.list{
+
+}
+.list li {
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+  }
+
+
